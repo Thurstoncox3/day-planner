@@ -1,0 +1,74 @@
+body {
+    font-family:'Rampart One', cursive;
+    font-size: 16px;
+    line-height: 1;
+  }
+  
+  textarea {
+    background: transparent;
+    border: none;
+    resize: none;
+    color: #000000;
+    border-left: 1px solid black;
+    padding: 10px;
+  }
+  
+  .jumbotron {
+    text-align: center;
+    background-color: rgb(12, 146, 190);
+    color: #fff;
+    border-radius: 0;
+    border-bottom: 10px solid black;
+  }
+  
+  .description {
+    white-space: pre-wrap;
+  }
+  
+  .time-block {
+    text-align: center;
+    border-radius: 15px;
+  }
+  
+  .row {
+    white-space: pre-wrap;
+    border-top: 1px solid white;
+    ;
+  }
+  
+  .hour {
+    background-color: #636060;
+    color: #faf8f8;
+  
+  }
+  
+  .past {
+    background-color: rgb(12, 146, 190);
+    color: white;
+  }
+  
+  .present {
+    background-color: #8b2f29;
+    color: white;
+  }
+  
+  .future {
+    background-color: #76f576;
+    color: white;
+  }  
+  .btn{
+    color:#fff;
+  }
+  
+  .saveBtn {
+    border-left: 1px solid black;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    background-color: lightblue;
+    color: white;
+  }
+  
+  .saveBtn i:hover {
+    font-size: 20px;
+    transition: all .3s ease-in-out;
+  }
